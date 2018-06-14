@@ -1,0 +1,117 @@
+.header {
+  font-family:italic bold 22px arial,serif;
+  font-weight:bold;
+  padding: 10px;
+  color: white;
+  background: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.datasetSelection{
+   font-family:italic bold 22px arial,serif;
+  font-weight:bold;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #dddddd;
+}
+
+.selectBox {
+   
+    width: 500px;
+    overflow: hidden;
+	
+	font-family:italic bold 22px arial,serif;
+  font-weight:bold;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #dddddd;
+  font-size:22px;
+  color: white;
+  background: rgb(0, 0, 0);
+    
+}
+
+.selectBox select {
+    
+	
+    width: 130%;
+  
+}
+.selectBox select:focus {
+    outline: none;
+}
+
+
+input[type=button]{
+  background-color: #555555; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+input[type=checkbox]:not(old) + label,
+input[type=radio   ]:not(old) + label{
+  font-family:italic bold 22px arial,serif;
+  font-weight:bold;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #dddddd;
+  font-size:22px;
+  color: white;
+  background: rgb(0, 0, 0);
+}
+
+.sidebyside{
+	display:flex;
+	flex-flow:row wrap;
+}
+
+
+.chartDisplaySetting {
+   width: 1200px;
+    padding-left: 10px;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+	
+}
+#footer {
+   position: relative;
+   font-family:Century Gothic;
+  font-size:20px;
+  font-weight:bold;
+  background: rgb(0, 0, 0);
+  color: white;
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+  width : auto;
+}
+label{
+	font-family:italic bold 22px arial,serif;
+  font-weight:bold;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #dddddd;
+  font-size:22px;
+  color: white;
+  background: rgb(0, 0, 0);
+  
+}
+
+body {
+      background-color: #FFFFFF;
+    }
+
+#displayingMap{
+	display: none;
+	height: 700px;
+	
+	border: 0.5px solid black;
+}
+
+
+
